@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.author       = package["author"]
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/edgarosovel/react-native-shared-group-preferences.git", :tag => "1.1.15" }
+  s.source       = { :git => "https://github.com/edgarosovel/react-native-shared-group-preferences.git", :tag => "master" }
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
